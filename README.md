@@ -1,6 +1,6 @@
 <div align="center">
 
-# `TW1ST3RX10`
+# <span style="color:#3B82C4">TW1ST3RX10</span>
 
 ### Walace Alves
 
@@ -10,9 +10,11 @@
 
 </div>
 
+<br>
+
 ---
 
-## 01 / ABOUT
+## <span style="color:#3B82C4">01 / ABOUT</span>
 
 Information Systems student interested in **software development, security and research**.
 
@@ -20,49 +22,54 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ---
 
-## 02 / CURRENTLY
+## <span style="color:#3B82C4">02 / CURRENTLY</span>
 
-> → Studying Information Systems  
-> → Developing **Biblioteca Fácil**  
-> → Exploring **Flutter**  
-> → Deepening my knowledge of **Security**  
-> → Building projects to learn by doing
+```text
+→ Studying Information Systems
+→ Developing Biblioteca Fácil
+→ Exploring Flutter
+→ Deepening my knowledge of Security
+→ Building projects to learn by doing
+```
 
 ---
 
-## ACTIVITY
-
 <table>
 <tr>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-### Contributions
+## <span style="color:#3B82C4">ACTIVITY</span>
 
-**—**
+### `—` &nbsp;&nbsp;&nbsp; `—`
 
-</td>
-<td align="center" width="50%">
+Contributions &nbsp;&nbsp;&nbsp;&nbsp; Commits
 
-### Commits
+<br>
 
-**—**
+### `—` &nbsp;&nbsp;&nbsp; `—`
 
-</td>
-</tr>
-
-<tr>
-<td align="center">
-
-### Repositories
-
-**—**
+Repositories &nbsp;&nbsp;&nbsp;&nbsp; Pull Requests
 
 </td>
-<td align="center">
 
-### Pull Requests
+<td width="50%" valign="top">
 
-**—**
+## <span style="color:#3B82C4">FOCUS</span>
+
+**LANGUAGES**
+
+```text
+TypeScript  ████████████████
+Python      ████████████
+Dart        █████████
+SQL         ██████
+```
+
+**AREAS**
+
+`Backend` · `Security`  
+`Software Engineering`  
+`Databases` · `Mobile`
 
 </td>
 </tr>
@@ -70,20 +77,11 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ---
 
-## FOCUS
+## <span style="color:#3B82C4">03 / CONTRIBUTIONS</span>
 
-### LANGUAGES
-
-`TypeScript` · `Python` · `Dart` · `SQL`
-
-### AREAS
-
-`Backend` · `Security` · `Software Engineering`  
-`Databases` · `Mobile`
-
----
-
-## 03 / CONTRIBUTIONS
+<table>
+<tr>
+<td>
 
 ```text
 LESS                                                    MORE
@@ -97,11 +95,17 @@ LESS                                                    MORE
 ░ ▒ ▒ ▓ ▓ ▓ █ █
 ```
 
+</td>
+</tr>
+</table>
+
+<sub>Contribution intensity · low → high</sub>
+
 ---
 
-## 04 / PROJECTS
+## <span style="color:#3B82C4">04 / PROJECTS</span>
 
-### ACADEMIC
+### `ACADEMIC`
 
 #### Biblioteca Fácil
 
@@ -111,7 +115,13 @@ A platform focused on **book exchange, lending and social interaction**, develop
 
 ---
 
-## 05 / LAB
+### `PERSONAL`
+
+Personal projects will appear here as they move from the **LAB** into active development.
+
+---
+
+## <span style="color:#3B82C4">05 / LAB</span>
 
 **Ideas · Experiments · Prototypes**
 
@@ -119,36 +129,40 @@ A space for things that are not finished yet.
 
 Projects, studies and experiments can start here before becoming something bigger.
 
----
-
-## 06 / STACK
-
-### LANGUAGES
-
-`Python` · `TypeScript` · `Dart` · `SQL`
-
-### BACKEND
-
-`Node.js` · `NestJS` · `Prisma`
-
-### DATABASE
-
-`MySQL`
-
-### TOOLS
-
-`Git` · `GitHub` · `Docker`
+```text
+┌────────────────────────────────────────────────────────────┐
+│                                                            │
+│  BUILDING                                                 │
+│  Experiments, ideas and technical studies                  │
+│                                                            │
+│  STATUS                                                    │
+│  Exploring · Learning · Prototyping                        │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 07 / CONTACT
+## <span style="color:#3B82C4">06 / STACK</span>
+
+| AREA | TECHNOLOGIES |
+|:---|:---|
+| **Languages** | `Python` · `TypeScript` · `Dart` · `SQL` |
+| **Backend** | `Node.js` · `NestJS` · `Prisma` |
+| **Database** | `MySQL` |
+| **Tools** | `Git` · `GitHub` · `Docker` |
+
+---
+
+## <span style="color:#3B82C4">07 / CONTACT</span>
 
 [LinkedIn](#) · [Email](#)
 
----
+<br>
 
 <div align="center">
 
-`TW1ST3RX10` · Walace Alves
+<span style="color:#3B82C4">TW1ST3RX10</span>  
+Walace Alves
 
 </div>
