@@ -1,6 +1,6 @@
-<div align="center">
+﻿<div align="center">
 
-# <span style="color:#3B82C4">TW1ST3RX10</span>
+# TW1ST3RX10
 
 ### Walace Alves
 
@@ -10,11 +10,9 @@
 
 </div>
 
-<br>
-
 ---
 
-## <span style="color:#3B82C4">01 / ABOUT</span>
+## 01 / ABOUT
 
 Information Systems student interested in **software development, security and research**.
 
@@ -22,90 +20,37 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ---
 
-## <span style="color:#3B82C4">02 / CURRENTLY</span>
+## 02 / CURRENTLY
 
-```text
-→ Studying Information Systems
-→ Developing Biblioteca Fácil
-→ Exploring Flutter
-→ Deepening my knowledge of Security
-→ Building projects to learn by doing
-```
+> → Studying Information Systems  
+> → Developing **Biblioteca Fácil**  
+> → Exploring **Flutter**  
+> → Deepening my knowledge of **Security**  
+> → Building projects to learn by doing
 
 ---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-## <span style="color:#3B82C4">ACTIVITY</span>
+<img src="./assets/activity.svg" alt="GitHub activity">
 
-### `—` &nbsp;&nbsp;&nbsp; `—`
-
-Contributions &nbsp;&nbsp;&nbsp;&nbsp; Commits
-
-<br>
-
-### `—` &nbsp;&nbsp;&nbsp; `—`
-
-Repositories &nbsp;&nbsp;&nbsp;&nbsp; Pull Requests
-
-</td>
-
-<td width="50%" valign="top">
-
-## <span style="color:#3B82C4">FOCUS</span>
-
-**LANGUAGES**
-
-```text
-TypeScript  ████████████████
-Python      ████████████
-Dart        █████████
-SQL         ██████
-```
-
-**AREAS**
-
-`Backend` · `Security`  
-`Software Engineering`  
-`Databases` · `Mobile`
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
-## <span style="color:#3B82C4">03 / CONTRIBUTIONS</span>
+## 03 / CONTRIBUTIONS
 
-<table>
-<tr>
-<td>
+<div align="center">
 
-```text
-LESS                                                    MORE
+<img src="./assets/contributions.svg" alt="GitHub contributions">
 
-░ ░ ░ ▒ ▒ ▓ ▓ █
-░ ░ ▒ ▒ ▓ ▓ █ █
-░ ▒ ▒ ▓ ▓ █ █ █
-░ ░ ░ ▓ ▓ ▓ █ █
-░ ▒ ▒ ▒ ▓ █ █ █
-░ ░ ▒ ▓ ▓ █ █ █
-░ ▒ ▒ ▓ ▓ ▓ █ █
-```
-
-</td>
-</tr>
-</table>
-
-<sub>Contribution intensity · low → high</sub>
+</div>
 
 ---
 
-## <span style="color:#3B82C4">04 / PROJECTS</span>
+## 04 / PROJECTS
 
-### `ACADEMIC`
+### ACADEMIC
 
 #### Biblioteca Fácil
 
@@ -115,13 +60,7 @@ A platform focused on **book exchange, lending and social interaction**, develop
 
 ---
 
-### `PERSONAL`
-
-Personal projects will appear here as they move from the **LAB** into active development.
-
----
-
-## <span style="color:#3B82C4">05 / LAB</span>
+## 05 / LAB
 
 **Ideas · Experiments · Prototypes**
 
@@ -129,40 +68,26 @@ A space for things that are not finished yet.
 
 Projects, studies and experiments can start here before becoming something bigger.
 
-```text
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│  BUILDING                                                 │
-│  Experiments, ideas and technical studies                  │
-│                                                            │
-│  STATUS                                                    │
-│  Exploring · Learning · Prototyping                        │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
+---
+
+## 06 / STACK
+
+<div align="center">
+
+<img src="./assets/languages.svg" alt="Languages and technologies">
+
+</div>
 
 ---
 
-## <span style="color:#3B82C4">06 / STACK</span>
+## 07 / CONTACT
 
-| AREA | TECHNOLOGIES |
-|:---|:---|
-| **Languages** | `Python` · `TypeScript` · `Dart` · `SQL` |
-| **Backend** | `Node.js` · `NestJS` · `Prisma` |
-| **Database** | `MySQL` |
-| **Tools** | `Git` · `GitHub` · `Docker` |
-
----
-
-## <span style="color:#3B82C4">07 / CONTACT</span>
-
-[LinkedIn](#) · [Email](#)
+LinkedIn · Email
 
 <br>
 
 <div align="center">
 
-<span style="color:#3B82C4">TW1ST3RX10</span>  
-Walace Alves
+`TW1ST3RX10` · Walace Alves
 
 </div>
