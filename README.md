@@ -1,20 +1,18 @@
-<div align="center">
+﻿<div align="center">
 
-# <span style="color:#3B82C4">TW1ST3RX10</span>
+# TW1ST3RX10
 
 ### Walace Alves
 
 **Information Systems Student**
 
-`Software` · `Security` · `Research`
+<img src="https://img.shields.io/badge/Software-0969DA?style=flat" alt="Software"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security"> · <img src="https://img.shields.io/badge/Research-0969DA?style=flat" alt="Research">
 
 </div>
 
-<br>
-
 ---
 
-## <span style="color:#3B82C4">01 / ABOUT</span>
+## 01 / ABOUT
 
 Information Systems student interested in **software development, security and research**.
 
@@ -22,147 +20,86 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ---
 
-## <span style="color:#3B82C4">02 / CURRENTLY</span>
+## 02 / CURRENTLY
 
-```text
-→ Studying Information Systems
-→ Developing Biblioteca Fácil
-→ Exploring Flutter
-→ Deepening my knowledge of Security
-→ Building projects to learn by doing
-```
+Studying Information Systems
 
----
+Building <img src="https://img.shields.io/badge/Smart_Lib-0969DA?style=flat" alt="SmartLib">
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Exploring <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter"> · <img src="https://img.shields.io/badge/Software_Development-0969DA?style=flat" alt="Software Development"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security">
 
-## <span style="color:#3B82C4">ACTIVITY</span>
-
-### `—` &nbsp;&nbsp;&nbsp; `—`
-
-Contributions &nbsp;&nbsp;&nbsp;&nbsp; Commits
-
-<br>
-
-### `—` &nbsp;&nbsp;&nbsp; `—`
-
-Repositories &nbsp;&nbsp;&nbsp;&nbsp; Pull Requests
-
-</td>
-
-<td width="50%" valign="top">
-
-## <span style="color:#3B82C4">FOCUS</span>
-
-**LANGUAGES**
-
-```text
-TypeScript  ████████████████
-Python      ████████████
-Dart        █████████
-SQL         ██████
-```
-
-**AREAS**
-
-`Backend` · `Security`  
-`Software Engineering`  
-`Databases` · `Mobile`
-
-</td>
-</tr>
-</table>
+Learning by building.
 
 ---
 
-## <span style="color:#3B82C4">03 / CONTRIBUTIONS</span>
+<div align="center">
 
-<table>
-<tr>
-<td>
+<img src="./assets/activity.svg" alt="GitHub activity">
 
-```text
-LESS                                                    MORE
-
-░ ░ ░ ▒ ▒ ▓ ▓ █
-░ ░ ▒ ▒ ▓ ▓ █ █
-░ ▒ ▒ ▓ ▓ █ █ █
-░ ░ ░ ▓ ▓ ▓ █ █
-░ ▒ ▒ ▒ ▓ █ █ █
-░ ░ ▒ ▓ ▓ █ █ █
-░ ▒ ▒ ▓ ▓ ▓ █ █
-```
-
-</td>
-</tr>
-</table>
-
-<sub>Contribution intensity · low → high</sub>
+</div>
 
 ---
 
-## <span style="color:#3B82C4">04 / PROJECTS</span>
+## 03 / CONTRIBUTIONS · CURRENT STREAK · RECORD · RECENT REPOSITORY
 
-### `ACADEMIC`
+<div align="center">
 
-#### Biblioteca Fácil
+<img src="./assets/contributions.svg" alt="Contribution totals, current and record streaks, commits, pull requests, issues, and recently updated repository">
+
+</div>
+
+---
+
+## 04 / PROJECTS
+
+### ACADEMIC
+
+**SmartLib**
 
 A platform focused on **book exchange, lending and social interaction**, developed as an academic project.
 
-`NestJS` · `Prisma` · `MySQL` · `Flutter`
+<img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter">
 
 ---
 
-### `PERSONAL`
+## 05 / LAB
 
-Personal projects will appear here as they move from the **LAB** into active development.
+### IDEAS · EXPERIMENTS · PROTOTYPES
 
----
+Not everything starts as a finished project.
 
-## <span style="color:#3B82C4">05 / LAB</span>
-
-**Ideas · Experiments · Prototypes**
-
-A space for things that are not finished yet.
-
-Projects, studies and experiments can start here before becoming something bigger.
-
-```text
-┌────────────────────────────────────────────────────────────┐
-│                                                            │
-│  BUILDING                                                 │
-│  Experiments, ideas and technical studies                  │
-│                                                            │
-│  STATUS                                                    │
-│  Exploring · Learning · Prototyping                        │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
+This is where I explore technologies, test ideas and learn by building.
 
 ---
 
-## <span style="color:#3B82C4">06 / STACK</span>
+## 06 / STACK
 
-| AREA | TECHNOLOGIES |
-|:---|:---|
-| **Languages** | `Python` · `TypeScript` · `Dart` · `SQL` |
-| **Backend** | `Node.js` · `NestJS` · `Prisma` |
-| **Database** | `MySQL` |
-| **Tools** | `Git` · `GitHub` · `Docker` |
+### LANGUAGES
+
+<img src="https://img.shields.io/badge/Python-0969DA?style=flat" alt="Python"> · <img src="https://img.shields.io/badge/TypeScript-0969DA?style=flat" alt="TypeScript"> · <img src="https://img.shields.io/badge/Dart-0969DA?style=flat" alt="Dart"> · <img src="https://img.shields.io/badge/SQL-0969DA?style=flat" alt="SQL">
+
+### BACKEND
+
+<img src="https://img.shields.io/badge/Node.js-0969DA?style=flat" alt="Node.js"> · <img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma">
+
+### DATABASE
+
+<img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL">
+
+### TOOLS
+
+<img src="https://img.shields.io/badge/Git-0969DA?style=flat" alt="Git"> · <img src="https://img.shields.io/badge/GitHub-0969DA?style=flat" alt="GitHub"> · <img src="https://img.shields.io/badge/Docker-0969DA?style=flat" alt="Docker">
 
 ---
 
-## <span style="color:#3B82C4">07 / CONTACT</span>
+## 07 / CONTACT
 
-[LinkedIn](#) · [Email](#)
+LinkedIn · Email
 
 <br>
 
 <div align="center">
 
-<span style="color:#3B82C4">TW1ST3RX10</span>  
-Walace Alves
+`TW1ST3RX10` · Walace Alves
 
 </div>

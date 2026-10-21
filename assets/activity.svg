@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="900"
+  height="112"
+  viewBox="0 0 900 112"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <text
+    x="30"
+    y="28"
+    fill="#57606A"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="13"
+    font-weight="700"
+    letter-spacing="1.8">
+    ACTIVITY
+  </text>
+
+  
+        <g>
+          <rect
+            x="30"
+            y="52"
+            width="190"
+            height="30"
+            rx="4"
+          fill="#0969DA"
+          />
+          <text
+            x="125"
+            y="72"
+            text-anchor="middle"
+            fill="#FFFFFF"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            font-weight="700">
+            456 CONTRIBUTIONS
+          </text>
+        </g>
+      
+        <g>
+          <rect
+            x="245"
+            y="52"
+            width="190"
+            height="30"
+            rx="4"
+          fill="#0969DA"
+          />
+          <text
+            x="340"
+            y="72"
+            text-anchor="middle"
+            fill="#FFFFFF"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            font-weight="700">
+            80 COMMITS
+          </text>
+        </g>
+      
+        <g>
+          <rect
+            x="460"
+            y="52"
+            width="190"
+            height="30"
+            rx="4"
+          fill="#0969DA"
+          />
+          <text
+            x="555"
+            y="72"
+            text-anchor="middle"
+            fill="#FFFFFF"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            font-weight="700">
+            4 PULL REQUESTS
+          </text>
+        </g>
+      
+        <g>
+          <rect
+            x="675"
+            y="52"
+            width="190"
+            height="30"
+            rx="4"
+          fill="#0969DA"
+          />
+          <text
+            x="770"
+            y="72"
+            text-anchor="middle"
+            fill="#FFFFFF"
+            font-family="Arial, Helvetica, sans-serif"
+            font-size="11"
+            font-weight="700">
+            169 ISSUES
+          </text>
+        </g>
+      
+
+</svg>
