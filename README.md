@@ -6,7 +6,7 @@
 
 **Information Systems Student**
 
-`Software` · `Security` · `Research`
+<img src="https://img.shields.io/badge/Software-0969DA?style=flat" alt="Software"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security"> · <img src="https://img.shields.io/badge/Research-0969DA?style=flat" alt="Research">
 
 </div>
 
@@ -22,11 +22,13 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ## 02 / CURRENTLY
 
-> → Studying Information Systems  
-> → Developing **Biblioteca Fácil**  
-> → Exploring **Flutter**  
-> → Deepening my knowledge of **Security**  
-> → Building projects to learn by doing
+Studying Information Systems
+
+Building <img src="https://img.shields.io/badge/Smart_Lib-0969DA?style=flat" alt="SmartLib">
+
+Exploring <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter"> · <img src="https://img.shields.io/badge/Software_Development-0969DA?style=flat" alt="Software Development"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security">
+
+Learning by building.
 
 ---
 
@@ -38,11 +40,11 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ---
 
-## 03 / CONTRIBUTIONS
+## 03 / CONTRIBUTIONS · CURRENT STREAK · RECORD · RECENT REPOSITORY
 
 <div align="center">
 
-<img src="./assets/contributions.svg" alt="GitHub contributions">
+<img src="./assets/contributions.svg" alt="Contribution totals, current and record streaks, commits, pull requests, issues, and recently updated repository">
 
 </div>
 
@@ -52,31 +54,41 @@ I use academic projects, experiments and personal ideas to turn what I learn int
 
 ### ACADEMIC
 
-#### Biblioteca Fácil
+**SmartLib**
 
 A platform focused on **book exchange, lending and social interaction**, developed as an academic project.
 
-`NestJS` · `Prisma` · `MySQL` · `Flutter`
+<img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter">
 
 ---
 
 ## 05 / LAB
 
-**Ideas · Experiments · Prototypes**
+### IDEAS · EXPERIMENTS · PROTOTYPES
 
-A space for things that are not finished yet.
+Not everything starts as a finished project.
 
-Projects, studies and experiments can start here before becoming something bigger.
+This is where I explore technologies, test ideas and learn by building.
 
 ---
 
 ## 06 / STACK
 
-<div align="center">
+### LANGUAGES
 
-<img src="./assets/languages.svg" alt="Languages and technologies">
+<img src="https://img.shields.io/badge/Python-0969DA?style=flat" alt="Python"> · <img src="https://img.shields.io/badge/TypeScript-0969DA?style=flat" alt="TypeScript"> · <img src="https://img.shields.io/badge/Dart-0969DA?style=flat" alt="Dart"> · <img src="https://img.shields.io/badge/SQL-0969DA?style=flat" alt="SQL">
 
-</div>
+### BACKEND
+
+<img src="https://img.shields.io/badge/Node.js-0969DA?style=flat" alt="Node.js"> · <img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma">
+
+### DATABASE
+
+<img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL">
+
+### TOOLS
+
+<img src="https://img.shields.io/badge/Git-0969DA?style=flat" alt="Git"> · <img src="https://img.shields.io/badge/GitHub-0969DA?style=flat" alt="GitHub"> · <img src="https://img.shields.io/badge/Docker-0969DA?style=flat" alt="Docker">
 
 ---
 
