@@ -6,7 +6,7 @@
 
 **Information Systems Student**
 
-<img src="https://img.shields.io/badge/Software-0969DA?style=flat" alt="Software"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security"> · <img src="https://img.shields.io/badge/Research-0969DA?style=flat" alt="Research">
+<img src="https://img.shields.io/badge/Software-0969DA?style=flat" alt="Software"> · <img src="https://img.shields.io/badge/Automation-0969DA?style=flat" alt="Automation"> · <img src="https://img.shields.io/badge/Research-0969DA?style=flat" alt="Research">
 
 </div>
 
@@ -14,19 +14,18 @@
 
 ## 01 / ABOUT
 
-Information Systems student interested in **software development, security and research**.
-
+Information Systems student focused on **software development, automation, and data governance.** I combine fundamental programming logic with AI-assisted engineering to build scalable workflows, real-time sync systems, and web platforms.
 I use academic projects, experiments and personal ideas to turn what I learn into something concrete.
 
 ---
 
 ## 02 / CURRENTLY
 
-Studying Information Systems
+**Studying Information Systems**
 
-Building <img src="https://img.shields.io/badge/Smart_Lib-0969DA?style=flat" alt="SmartLib">
+**Building:** Automated ETL pipelines, data governance tools, and workflow systems using JavaScript & Apps Script.
 
-Exploring <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter"> · <img src="https://img.shields.io/badge/Software_Development-0969DA?style=flat" alt="Software Development"> · <img src="https://img.shields.io/badge/Security-0969DA?style=flat" alt="Security">
+**Exploring:** <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter"> · <img src="https://img.shields.io/badge/Software_Development-0969DA?style=flat" alt="Software Development"> · <img src="https://img.shields.io/badge/Automation-0969DA?style=flat" alt="Automation">
 
 Learning by building.
 
@@ -40,7 +39,7 @@ Learning by building.
 
 ---
 
-## 03 / CONTRIBUTIONS · CURRENT STREAK · RECORD · RECENT REPOSITORY
+## 03 / CONTRIBUTIONS
 
 <div align="center">
 
@@ -58,7 +57,13 @@ Learning by building.
 
 A platform focused on **book exchange, lending and social interaction**, developed as an academic project.
 
-<img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/Flutter-0969DA?style=flat" alt="Flutter">
+<img src="https://img.shields.io/badge/NestJS-0969DA?style=flat" alt="NestJS"> · <img src="https://img.shields.io/badge/Prisma-0969DA?style=flat" alt="Prisma"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/JWT-0969DA?style=flat" alt="JWT">
+
+**ImunoPet**
+
+IImuno Pet Brasil is an animal vaccination management system **featuring integration, metrics, and critical decision-making support**, developed as an academic project.
+
+<img src="https://img.shields.io/badge/NodeJS-0969DA?style=flat" alt="NodeJS"> · <img src="https://img.shields.io/badge/Express-0969DA?style=flat" alt="Express"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/NextJS-0969DA?style=flat" alt="NextJS">
 
 ---
 
