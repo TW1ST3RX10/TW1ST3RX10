@@ -61,7 +61,7 @@ A platform focused on **book exchange, lending and social interaction**, develop
 
 **ImunoPet**
 
-IImuno Pet Brasil is an animal vaccination management system **featuring integration, metrics, and critical decision-making support**, developed as an academic project.
+Imuno Pet Brasil is an animal vaccination management system **featuring integration, metrics, and critical decision-making support**, developed as an academic project.
 
 <img src="https://img.shields.io/badge/NodeJS-0969DA?style=flat" alt="NodeJS"> · <img src="https://img.shields.io/badge/Express-0969DA?style=flat" alt="Express"> · <img src="https://img.shields.io/badge/MySQL-0969DA?style=flat" alt="MySQL"> · <img src="https://img.shields.io/badge/NextJS-0969DA?style=flat" alt="NextJS">
 
