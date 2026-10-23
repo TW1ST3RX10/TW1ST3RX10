@@ -29,7 +29,7 @@
     <rect x="570" y="48" width="130" height="24" rx="4" fill="#0969DA" />
     <text x="635" y="65" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">DAYS WITH ACTIVITY</text>
     <text x="570" y="119" fill="#0969DA" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">29</text>
-    <text x="650" y="117" fill="#57606A" font-family="Arial, Helvetica, sans-serif" font-size="14">of 368</text>
+    <text x="650" y="117" fill="#57606A" font-family="Arial, Helvetica, sans-serif" font-size="14">of 365</text>
   </g>
 
   <line x1="30" y1="151" x2="870" y2="151" stroke="#D1D9E0" stroke-width="1" />
