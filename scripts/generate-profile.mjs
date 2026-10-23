@@ -8,6 +8,7 @@ if (!token) {
 }
 
 const colors = {
+  heading: "#FFFFFF",
   text: "#57606A",
   muted: "#57606A",
   blue: "#0969DA",
@@ -162,12 +163,12 @@ function createActivitySvg() {
   <text
     x="30"
     y="28"
-    fill="${colors.text}"
+    fill="${colors.heading}"
     font-family="Arial, Helvetica, sans-serif"
     font-size="13"
     font-weight="700"
     letter-spacing="1.8">
-    ACTIVITY
+    CONTRIBUTIONS · LAST 12 MONTHS
   </text>
 
   ${tags}
@@ -182,7 +183,14 @@ function createActivitySvg() {
 function createContributionSvg() {
   const width = 900;
   const height = 190;
-  const days = allDays;
+  const windowDays = 365;
+  const today = new Date().toISOString().slice(0, 10);
+  const firstDay = new Date(`${today}T00:00:00Z`);
+  firstDay.setUTCDate(firstDay.getUTCDate() - (windowDays - 1));
+  const firstDate = firstDay.toISOString().slice(0, 10);
+  const days = allDays.filter(
+    (day) => day.date >= firstDate && day.date <= today,
+  );
   let record = 0;
   let run = 0;
   for (const day of days) {
@@ -190,7 +198,6 @@ function createContributionSvg() {
     record = Math.max(record, run);
   }
   let current = 0;
-  const today = new Date().toISOString().slice(0, 10);
   for (const day of [...days].reverse()) {
     if (day.date === today && day.contributionCount === 0) continue;
     if (day.contributionCount > 0) current++;
@@ -199,7 +206,7 @@ function createContributionSvg() {
   const activeDays = days.filter((day) => day.contributionCount > 0).length;
   const repo = [...user.repositories.nodes].filter((item) => !item.isFork)
     .sort((a, b) => new Date(b.updatedAt) - new Date(a.updatedAt))[0];
-  const updated = repo ? new Date(repo.updatedAt).toLocaleDateString("pt-BR", { timeZone: "UTC" }) : "—";
+  const updated = repo ? new Date(repo.updatedAt).toLocaleDateString("en-GB", { timeZone: "UTC" }) : "—";
   return `<?xml version="1.0" encoding="UTF-8"?>
 <svg
   width="${width}"
@@ -207,13 +214,13 @@ function createContributionSvg() {
   viewBox="0 0 ${width} ${height}"
   xmlns="http://www.w3.org/2000/svg">
 
-  <text x="30" y="30" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">SEQUÊNCIAS · ÚLTIMOS 12 MESES</text>
+  <text x="30" y="30" fill="${colors.heading}" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">SEQUENCES · LAST 12 MONTHS</text>
 
   <g>
-    <rect x="30" y="48" width="126" height="24" rx="4" fill="${colors.blue}" />
-    <text x="93" y="64" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1">SEQUÊNCIA ATUAL</text>
+    <rect x="27" y="48" width="130" height="24" rx="4" fill="${colors.blue}" />
+    <text x="93" y="64" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1">CURRENT SEQUENCE</text>
     <text x="30" y="119" fill="${colors.blue}" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">${current}</text>
-    <text x="89" y="117" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="14">dias seguidos</text>
+    <text x="89" y="117" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="14">days in a row</text>
     <line x1="30" y1="132" x2="280" y2="132" stroke="#D1D9E0" stroke-width="2" stroke-linecap="round" />
     <line x1="30" y1="132" x2="${Math.max(31, 30 + 250 * (record ? current / record : 0))}" y2="132" stroke="${colors.blue}" stroke-width="5" stroke-linecap="round" />
   </g>
@@ -222,21 +229,22 @@ function createContributionSvg() {
 
   <g>
     <rect x="340" y="48" width="78" height="24" rx="4" fill="${colors.blue}" />
-    <text x="379" y="64" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RECORDE</text>
+    <text x="379" y="64" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1">RECORD</text>
     <text x="340" y="119" fill="${colors.blue}" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">${record}</text>
-    <text x="399" y="117" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="14">dias seguidos</text>
+    <text x="399" y="117" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="14">days in a row</text>
   </g>
 
   <g>
-    <text x="570" y="70" fill="${colors.muted}" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">DIAS COM ATIVIDADE</text>
-    <text x="570" y="112" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">${activeDays}</text>
-    <text x="613" y="111" fill="${colors.muted}" font-family="Arial, Helvetica, sans-serif" font-size="12">de ${days.length}</text>
+    <rect x="570" y="48" width="130" height="24" rx="4" fill="${colors.blue}" />
+    <text x="635" y="65" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">DAYS WITH ACTIVITY</text>
+    <text x="570" y="119" fill="${colors.blue}" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">${activeDays}</text>
+    <text x="650" y="117" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="14">of ${windowDays}</text>
   </g>
 
   ${repo ? `<line x1="30" y1="151" x2="${width - 30}" y2="151" stroke="#D1D9E0" stroke-width="1" />
-  <text x="30" y="174" fill="${colors.muted}" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">REPOSITÓRIO RECENTE</text>
+  <text x="30" y="174" fill="${colors.muted}" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">RECENT REPOSITORY</text>
   <a href="${escapeXml(repo.url)}"><text x="190" y="174" fill="${colors.blue}" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">${escapeXml(repo.name)}</text></a>
-  <text x="${width - 30}" y="174" text-anchor="end" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="12">${escapeXml(repo.primaryLanguage?.name || "Sem linguagem")} · atualizado em ${updated}</text>` : ""}
+  <text x="${width - 30}" y="174" text-anchor="end" fill="${colors.text}" font-family="Arial, Helvetica, sans-serif" font-size="12">${escapeXml(repo.primaryLanguage?.name || "No language")} · Updated on ${updated}</text>` : ""}
 
 </svg>`;
 }
