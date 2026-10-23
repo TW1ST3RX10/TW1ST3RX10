@@ -45,14 +45,6 @@ query($login: String!) {
         updatedAt
         url
         primaryLanguage { name }
-        languages(first: 10, orderBy: {field: SIZE, direction: DESC}) {
-          edges {
-            size
-            node {
-              name
-            }
-          }
-        }
       }
     }
 
@@ -114,35 +106,6 @@ const allDays = contributionCalendar.weeks.flatMap(
   (week) => week.contributionDays,
 );
 
-
-/* -------------------------------------------------------------------------- */
-/* LANGUAGE DATA                                                              */
-/* -------------------------------------------------------------------------- */
-
-const languageBytes = new Map();
-
-for (const repository of user.repositories.nodes) {
-  if (repository.isFork) continue;
-
-  for (const edge of repository.languages.edges) {
-    const language = edge.node.name;
-    const current = languageBytes.get(language) || 0;
-
-    languageBytes.set(language, current + edge.size);
-  }
-}
-
-const languages = [...languageBytes.entries()]
-  .sort((a, b) => b[1] - a[1])
-  .map(([name, bytes]) => ({
-    name,
-    bytes,
-  }));
-
-const totalLanguageBytes = languages.reduce(
-  (sum, language) => sum + language.bytes,
-  0,
-);
 
 /* -------------------------------------------------------------------------- */
 /* ACTIVITY SVG                                                               */
@@ -279,125 +242,6 @@ function createContributionSvg() {
 }
 
 /* -------------------------------------------------------------------------- */
-/* LANGUAGES SVG                                                              */
-/* -------------------------------------------------------------------------- */
-
-function createLanguagesSvg() {
-  const width = 900;
-  const height = 365;
-
-  const sections = [
-    {
-      title: "LANGUAGES",
-      items: ["Python", "TypeScript", "Dart", "SQL"],
-    },
-    {
-      title: "BACKEND",
-      items: ["Node.js", "NestJS", "Prisma"],
-    },
-    {
-      title: "DATABASE",
-      items: ["MySQL"],
-    },
-    {
-      title: "TOOLS",
-      items: ["Git", "GitHub", "Docker"],
-    },
-  ];
-
-  const pills = [];
-
-  let y = 98;
-
-  for (const section of sections) {
-    pills.push(`
-      <text
-        x="30"
-        y="${y}"
-        fill="${colors.blue}"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="10"
-        font-weight="700"
-        letter-spacing="1.8">
-        ${section.title}
-      </text>
-    `);
-
-    y += 25;
-
-    let x = 30;
-
-    for (const item of section.items) {
-      const textWidth = item.length * 7.2;
-      const pillWidth = textWidth + 30;
-
-      if (x + pillWidth > width - 30) {
-        x = 30;
-        y += 43;
-      }
-
-      pills.push(`
-        <g>
-          <rect
-            x="${x}"
-            y="${y - 18}"
-            width="${pillWidth}"
-            height="30"
-            rx="15"
-            fill="${colors.blue}"
-            stroke="none"
-          />
-
-          <text
-            x="${x + 22}"
-            y="${y + 1}"
-            fill="#FFFFFF"
-            font-family="Arial, Helvetica, sans-serif"
-            font-size="11">
-            ${escapeXml(item)}
-          </text>
-        </g>
-      `);
-
-      x += pillWidth + 10;
-    }
-
-    y += 48;
-  }
-
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg
-  width="${width}"
-  height="${height}"
-  viewBox="0 0 ${width} ${height}"
-  xmlns="http://www.w3.org/2000/svg">
-
-  <text
-    x="30"
-    y="32"
-    fill="${colors.blue}"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="14"
-    font-weight="700"
-    letter-spacing="2.4">
-    STACK
-  </text>
-
-  <text
-    x="30"
-    y="58"
-    fill="${colors.muted}"
-    font-family="Arial, Helvetica, sans-serif"
-    font-size="12">
-    Technologies I currently use and study
-  </text>
-
-  ${pills}
-
-</svg>`;
-}
-
-/* -------------------------------------------------------------------------- */
 /* WRITE FILES                                                                */
 /* -------------------------------------------------------------------------- */
 
@@ -412,12 +256,6 @@ await fs.writeFile(
 await fs.writeFile(
   "assets/contributions.svg",
   createContributionSvg(),
-  "utf8",
-);
-
-await fs.writeFile(
-  "assets/languages.svg",
-  createLanguagesSvg(),
   "utf8",
 );
 
@@ -443,19 +281,3 @@ console.log(
 console.log(
   `Repositórios: ${formatNumber(user.repositories.totalCount)}`,
 );
-console.log(
-  `Linguagens encontradas: ${languages.length}`,
-);
-
-console.log("\nPrincipais linguagens:");
-
-for (const language of languages.slice(0, 6)) {
-  const percentage =
-    totalLanguageBytes > 0
-      ? (language.bytes / totalLanguageBytes) * 100
-      : 0;
-
-  console.log(
-    `- ${language.name}: ${percentage.toFixed(1)}%`,
-  );
-}
