@@ -1,11 +1,8 @@
 import fs from "node:fs/promises";
+import { getGitHubToken } from "./github-token.mjs";
 
-const token = process.env.GITHUB_TOKEN;
+const token = getGitHubToken();
 const username = process.env.GITHUB_USER || "TW1ST3RX10";
-
-if (!token) {
-  throw new Error("GITHUB_TOKEN não configurado.");
-}
 
 const colors = {
   heading: "#FFFFFF",
